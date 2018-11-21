@@ -19,7 +19,7 @@ p
 div,p,body,header,footer,section,article,nav 
 { 
 	margin: 0; 
-	padding: 0; 
+	padding: 0;
 }	
 
 img 
@@ -36,6 +36,7 @@ body
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	color: #333;
+	background-color: #f1f1f1; 
 }
 
 
@@ -159,6 +160,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	display: flex;
 	flex-direction: row;
   	justify-content: flex-start;
+  	background-color: #9a9e8d;
   	
 }
 
@@ -200,49 +202,6 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	margin-left: auto;
 	width: 440px;
 }
-
-/*Page 3*/
-
-#productImages 
-{
-	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: space-between;
-}
-
-/*Get rid of this, here just to give different height*/
-#productImages p
-{
-	line-height: 250px;
-}
-
-.productImg 
-{
-	width: 280px;
-}
-
-
-#contentAreaBig
-{
-	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
-}
-
-/*Get rid of this, here just to give different height*/
-#contentAreaBig p 
-{
-	line-height: 300px;
-}
-
-#promoImageBig
-{
-	width: 920px;
-}
-
 
 /*Page 4*/
 
