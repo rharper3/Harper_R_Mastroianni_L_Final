@@ -6,7 +6,7 @@ The line height on the <p> tag gives each box a height value*/
 
 p
 {
-	color: #fff;
+	color: #454545;
 	line-height: 100px;
 	background: #000;
 	text-align: center;
@@ -35,8 +35,8 @@ body
 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
-	color: #333;
-	background-color: #f1f1f1; 
+	color: #454545;
+	background-color: #f1f1f1;
 }
 
 
@@ -46,12 +46,13 @@ a:visited is for visited, and just a applies to both.*/
 
 a:link, a:visited 
 { 
- 	text-decoration:none; 	
+ 	text-decoration:none;	
 }
 
 a:hover, a:active 
 { 
 	text-decoration:none; 
+	color: #daa520;
 }
 
 /*hide elements from browser but show for doc outline*/
@@ -103,6 +104,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	margin-left: auto;
 	width: 500px;
+	color: #454545;
 }
 
 #promo 
@@ -167,12 +169,14 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #footerNav 
 {
 	width: 500px;
+	color: #454545;
 }
 
 #copyRight 
 {
 	margin-left: auto;
 	width: 310px;
+	color: #454545;
 }
 
 /*Page 2 - Notice we are using one style sheet for all of the pages*/
