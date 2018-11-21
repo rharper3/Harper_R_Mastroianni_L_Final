@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+	<section id="topBar"></section><!--end topBar-->
+	<div id="siteContainer">
+    	<header id="mainHeader">
+        	<div id="logo">
+                <p>Logo</p>
+            </div><!--end logo-->
+            <nav id="mainNav">
+            	<h2 class="hidden">Main Navigation</h2></nav><!--end mainNav-->
+        </header><!--end mainHeader-->
+        <section id="contentCon">
+        	<div id="content1">
+        		<h2>Contact Us</h2>
+
+             <form id="contactForm" method="post" action="form.php">
+                <label for="name">Name</label>
+                <input type="text" required id="name" placeholder="Enter Your Name">
+
+                <label for="email">Email</label>
+                <input type="text" required id="name" placeholder="Enter your Email">
+                <br>
+                <label for="newsletter"> Receive news on deals, offers, and discounts!</label>
+                <input type="checkbox" id="newsletter" checked="checked">
+<br>
+                <label for="name">Phone Number(Optional)</label>
+                <input type="tel" placeholder="Enter Your Phone #">
+<br>
+                <label for="comments">How did we do?</label>
+                <textarea id"comments" required cols="50" rows="8">
+                </textarea>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186904.77250269224!2d-81.38870576154734!3d42.94904691005585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2sLondon%2C+ON!5e0!3m2!1sen!2sca!4v1542575008748" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        		
+        		<p>Content Area 1</p></div><!--end content1-->
+        	<div id="content2"><p>Content Area 2</p></div><!--end content2-->
+        </section><!--end contentCon-->
+        <footer id="mainFooter">
+        	<div id="footerNav"><p>Footer Nav</p></div><!--end FooterNav-->
+            <div id="copyRight"><p>Copyright Info</p></div><!--end Copyright-->
+        </footer><!--end mainFooter-->
+    </div><!--end siteContainer-->
+<script src="js/main.js"></script>    
+</body>
+</html>
