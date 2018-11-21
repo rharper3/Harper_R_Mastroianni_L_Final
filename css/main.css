@@ -19,7 +19,7 @@ p
 div,p,body,header,footer,section,article,nav 
 { 
 	margin: 0; 
-	padding: 0; 
+	padding: 0;
 }	
 
 img 
@@ -206,7 +206,6 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	margin-left: auto;
 	width: 440px;
 }
-
 
 /*Page 4*/
 
