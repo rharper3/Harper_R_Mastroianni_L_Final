@@ -307,12 +307,13 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #content2 
 {
 	margin-left: auto;
+	list-style-type: none;
 	width: 440px;
 }
 
 #mapArea
 {
-	
+	margin-left: auto;
 }
 /*Page 4*/
 
