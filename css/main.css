@@ -79,6 +79,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 920px;
 	padding-left: 20px;
 	padding-right: 20px;
+	
 }
 
 /*This is a flex container*/
@@ -100,12 +101,69 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 /*This is also a flex item*/
 /*We use margin left auto to send it all the way to the right*/
-#mainNav 
+
+#mainNav
 {
+	width: 445px;
+	height: 0px;
+	margin-top: 140px;
 	margin-left: auto;
-	width: 500px;
-	color: #454545;
 }
+#mainNav ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+#mainNav ul li
+{
+	display: inline;
+	padding: 20px;
+	font-size: 20px;
+	font-family: "Helvetica";
+	
+
+
+
+    /*list-style: none;*/
+	/*flex: end;*/
+    /*margin-left: auto;*/
+	/*width: 500px;*/
+	/*color: #454545; */
+    /*margin: 0px; */
+	/*padding: 40px; */
+}
+
+
+#mainNav ul li a:hover
+{
+	background-color: #b2bfb3;
+	color: #454545;
+	padding: 1px;
+
+}
+
+#accountIcon 
+{
+	display: inline;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+#accountIcon li
+{
+
+
+}
+
+#accountIcon li img
+{
+	padding: 5px;
+}
+
+
 
 #promo 
 {
@@ -157,6 +215,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #mainFooter 
 {
+
 	margin-top: 40px;
 	margin-bottom: 40px;
 	display: flex;
@@ -166,10 +225,25 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	
 }
 
-#footerNav 
+
+.footerNav 
 {
-	width: 500px;
-	color: #454545;
+  width: 380px;
+  height: 25px;
+  margin-left: 20px;
+
+	/*width: 500px;
+	color: #454545;*/
+}
+
+.footerNav ul
+{
+	list-style-type: none;
+}
+
+.socialMedia ul
+{
+	list-style-type: none; 
 }
 
 #copyRight 
@@ -182,6 +256,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*Page 2 - Notice we are using one style sheet for all of the pages*/
 
 #contentCon {
+	display:inline;
 	margin-top: 40px;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
@@ -191,15 +266,43 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 /*Get rid of this, here just to give different height to promo*/
-#contentCon p 
-{
-	line-height: 630px;
+  /* content area 2 */
+
+/*{
+	
+    line-height: 630px;
 }
 
-#content1 
+#content1
 {
-	width: 440px;
+	
+}*/
+#contentCon
+{
+	display: flex;
+	flex: start;
 }
+#content1
+{
+	display: flex;
+	flex: start;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 30px;
+}
+#content1 h2 
+{
+	display: flex;
+	flex: start;
+	margin-left: 50px;
+	font-size: 36px;
+	font-family: "Helvetica-bold";
+
+
+	/*width: 440px;*/
+}
+
+
 
 #content2 
 {
@@ -207,6 +310,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 440px;
 }
 
+#mapArea
+{
+	
+}
 /*Page 4*/
 
 .productDescLargeLeft 
