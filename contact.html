@@ -22,34 +22,34 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
                
-            </nav>
-            	<h2 class="hidden">Main Navigation</h2></nav><!--end mainNav-->
+            </nav><!--end mainNav-->
+            	
         </header><!--end mainHeader-->
-        <section id="contentCon">
+
+        <section id="mainContact">
         	<div id="content1">
         		<h2>Have Questions?</h2>
-
+                <section id="contact">
              <form id="contactForm" method="post" action="form.php">
-                <label for="name">Name</label>
-                <input type="text" required id="name" placeholder="Enter Your Name">
+                <label for="name">Name<br></label>
+                <input type="text" required id="name" placeholder="Enter Your Name"><br>
 
-                <label for="email">Email</label>
-                <input type="text" required id="name" placeholder="Enter your Email">
+                <label for="email">Email<br></label>
+                <input type="text" required id="name" placeholder="Enter your Email"><br>
                 <br>
-                <label for="newsletter"> Receive news on deals, offers, and discounts!</label>
-                <input type="checkbox" id="newsletter" checked="checked">
 
-                <label for="name">Phone Number(Optional)</label>
-                <input type="tel" placeholder="Enter Your Phone #">
+                <label for="name">Phone Number(Optional)<br></label>
+                <input type="tel" placeholder="Enter Your Phone #"><br>
 
-                <label for="comments">How did we do?</label>
+                <label for="comments">Message<br></label>
                 <textarea id"comments" required cols="50" rows="8">
                 </textarea>
                 <br>
                 <input type="submit" value="Submit" id="submit">
            	</form>
+           </section>
             </div><!--end content1-->
-        	<div id="content2">
+        	<!--<div id="content2">
 
                 <h2>Contact Us</h2>
                 <ul>
@@ -57,10 +57,19 @@
                     <li>London Ontario N5Y 3E7</li>
                     <li>P:  (226)-235-5616</li>
                     <li>E:  theterrariumexotics@gmail.com</li>
-                     </ul>
+                     </ul>-->
               
-                     <section id="mapArea">
-            <ul>
+                     <div id="mapArea">
+            
+            <h2>Contact Us</h2>
+                <ul>
+                    <li>550 Mornington Avenue</li>
+                    <li>London Ontario N5Y 3E7</li>
+                    <li>P:  (226)-235-5616</li>
+                    <li>E:  theterrariumexotics@gmail.com</li>
+                </ul> 
+
+                <ul>
                 <h2>Store Hours</h2>
                 <li>Monday-Friday</li>
                 <li>8:00AM- 7PM</li>
@@ -69,16 +78,40 @@
                 <li>Sunday</li>
                 <li>9:00AM-6:00PM</li>
             </ul>
-            </div><!--end content2--> 
-        </section><!--end contentCon--> 
-       
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186904.77250269224!2d-81.38870576154734!3d42.94904691005585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2sLondon%2C+ON!5e0!3m2!1sen!2sca!4v1542575008748" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </section>
+        
+            <div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.788988988251!2d-81.21583464937848!3d43.00377757904651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eed9ca192abd5%3A0x807310fa842d38b9!2s550+Mornington+Ave%2C+London%2C+ON+N5Y+3A7!5e0!3m2!1sen!2sca!4v1543448524269" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        </section>
+  
         <footer id="mainFooter">
-        	<div id="footerNav"><p>Footer Nav</p></div><!--end FooterNav-->
-            <div id="copyRight"><p>Copyright Info</p></div><!--end Copyright-->
+            <h2 class="hidden">footerNav</h2>
+             <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="supplies.html">Supplies</a></li>
+                    <li><a href="reptiles.html">Reptiles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        	<div id="footerNav">
+             <section id="socialMedia">
+                <ul>
+            <li id="facebook">
+                <a href="http://www.facebook.com"><img src="images/facebook-logo.svg" height="22" width="22" alt="Facebook Logo"></a>
+            </li>
+            <li id="twitter">
+                <a href="http://www.twitter.com"><img src="images/twitter-logo-silhouette.svg" height="22" width="22" alt="Twitter Logo"></a>
+            </li>
+            <li id="instagram">
+                <a href="http://www.instagram.com"><img src="images/instagram-social-network-logo-of-photo-camera.svg" height="22" width="22" alt="Instagram Logo"></a>
+        </ul>
+             </section>
+            <div id="copyRight">
+                <p>The Terrarium© 2018 All Rights Reserved</p>
+            </div><!--end Copyright-->
         </footer><!--end mainFooter-->
     </div><!--end siteContainer-->
 <script src="js/main.js"></script>    
 </body>
 </html>
+
+

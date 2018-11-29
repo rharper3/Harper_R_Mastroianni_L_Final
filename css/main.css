@@ -152,11 +152,6 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 }
 
-#accountIcon li
-{
-
-
-}
 
 #accountIcon li img
 {
@@ -225,6 +220,17 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	
 }
 
+#mainFooter ul
+{
+	list-style-type: none;
+
+}
+
+#mainFooter ul li
+{
+	display:inline;
+}
+
 
 .footerNav 
 {
@@ -255,32 +261,18 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 /*Page 2 - Notice we are using one style sheet for all of the pages*/
 
-#contentCon {
-	display:inline;
-	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: flex-start;
-}
 
-/*Get rid of this, here just to give different height to promo*/
-  /* content area 2 */
 
-/*{
-	
-    line-height: 630px;
-}
 
-#content1
-{
-	
-}*/
 #contentCon
 {
+	width: 940px;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
 	display: flex;
-	flex: start;
+	flex-direction: row;
+	justify-content: space-between;
 }
 #content1
 {
@@ -290,11 +282,14 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	justify-content: flex-start;
 	margin-top: 30px;
 }
+
+
 #content1 h2 
 {
+	margin-top: -30px;
 	display: flex;
 	flex: start;
-	margin-left: 50px;
+	margin-left: 15px;
 	font-size: 36px;
 	font-family: "Helvetica-bold";
 
@@ -302,20 +297,6 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	/*width: 440px;*/
 }
 
-
-
-#content2 
-{
-	margin-left: auto;
-	list-style-type: none;
-	width: 440px;
-}
-
-#mapArea
-{
-	margin-left: auto;
-}
-/*Page 4*/
 
 .productDescLargeLeft 
 {
@@ -327,3 +308,52 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 410px;
 }
 
+#mainContact
+{
+	width: 940px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#contact
+{
+	margin-left: 15px;
+}
+
+#mapArea
+{
+	width: 380px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#mapArea ul
+{
+	list-style-type: none;
+	padding: 0px;
+}
+
+#mapArea h2
+{
+	font-size: 21px;
+	margin-top: 0px;
+	color: #505050;
+	text-align: left;
+	font-family: "Helvetica-bold";
+	font-size: 24px;
+}
+
+#socialMedia
+{
+
+}
+
+#copyRight
+{
+	display: flex;
+	flex: end;
+}
